@@ -15,16 +15,25 @@ const GET_LESSONS_QUERY = gql`
  }
 `
 
+interface Lesson {
+  id: string
+  slug: string
+  title: string
+  teacher: {
+    name: string
+    bio: string
+    avatarURL: string
+  }
+}
+
 function App() {
-  const { data } = useQuery(GET_LESSONS_QUERY)
-  console.log(data)
+  const { data } = useQuery<{ lessons: Lesson[] }>(GET_LESSONS_QUERY)
 
   return (
     <ul>
-      {data.lessons.map(lesson => {
-        return <li>{lesson.title}</li>
+      {data?.lessons.map(lesson => {
+        return <li key={lesson.id}>{lesson.title}</li>
       })
-
       }
     </ul>
   )
