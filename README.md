@@ -1,4 +1,4 @@
-# Event Platform
+# **Event Platform**
 
 Esse projeto é uma plataforma de evento, onde as pessoas se cadastram na plataforma para ter acesso ao conteúdo de aulas. Essas aulas são liberadas nos dias determinados de cada uma delas que foram cadastradas via admin.
 
@@ -7,7 +7,7 @@ Esse projeto é uma plataforma de evento, onde as pessoas se cadastram na plataf
 
 ---
 
-## 🚀 Tecnologias
+## 🚀 **Tecnologias**
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -22,14 +22,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-## 💻 Como executar
+## 💻 **Como executar**
 
 - Clone o repositório
 - Instale as dependências utilizando `npm install` ou `yarn`
 
 ---
 
-## 📚 Ferramentas, Bibliotecas e Pacotes
+## 📚 **Ferramentas, Bibliotecas e Pacotes**
 
 - **Vite:** é uma ferramenta que converte o código para um formato que todos os browsers entendam, ou seja, permite que o navegador entenda o JS mais moderno.
 
@@ -59,12 +59,18 @@ Conversão do svg para jsx: [SVG 2 JSX](https://svg2jsx.com/)
 
 **classnames:** é uma lib para colocar condições nas classes do css
 
-**[graphql-code-generator](https://www.graphql-code-generator.com/):** 
+**[graphql-code-generator](https://www.graphql-code-generator.com/):** permite termos a integração entre o front-end da aplicação e a API em GraphQL
 
 ---
 
-## 📚 Extensões do VSCode
+## 📚 **Extensões do VSCode**
 
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [PostCSS Language Support](https://marketplace.visualstudio.com/items?itemName=csstools.postcss)
 - [GraphQL](https://marketplace.visualstudio.com/items?itemName=GraphQL.vscode-graphql)
+
+---
+
+## ✨ **Deploy**
+
+**Frontend:**: [Vercel](https://vercel.com/)
