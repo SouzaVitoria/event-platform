@@ -13,6 +13,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org)
+- [Jest](https://jestjs.io/pt-BR/)
 - [Tailwind](https://tailwindui.com/)
 - [GraphCMS](https://app.graphcms.com/)
 - [GraphQL](https://graphql.org/)
@@ -60,6 +61,15 @@ Conversão do svg para jsx: [SVG 2 JSX](https://svg2jsx.com/)
 **classnames:** é uma lib para colocar condições nas classes do css
 
 **[graphql-code-generator](https://www.graphql-code-generator.com/):** permite termos a integração entre o front-end da aplicação e a API em GraphQL
+
+---
+
+## 📈 **Testes Unitários**
+
+- Instalar as dependências de desenvolvimento: `yarn add jest @types/jest -D`
+- Criando a configuração do jest: `npx jest --init`
+- Para conseguir entender a configuração com TS: `yarn add ts-node -D`
+- Por padrão o Jest não vem com entendimento de React, precisamos instalar algumas configurações: `yarn add @swc/core @swc/jest -D`
 
 ---
 
