@@ -31,7 +31,7 @@ export default {
 
   // An array of regexp pattern strings used to skip coverage collection
   coveragePathIgnorePatterns: [
-    "\\\\node_modules\\\\"
+    "/node_modules/"
   ],
 
   // Indicates which provider should be used to instrument code for coverage
@@ -176,7 +176,7 @@ export default {
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   transformIgnorePatterns: [
-    "\\\\node_modules\\\\"
+    "/node_modules/"
   ],
 
   // An array of regexp pattern strings that are matched against all modules before the module loader will automatically return a mock for them
